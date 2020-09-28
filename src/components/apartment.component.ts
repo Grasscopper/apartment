@@ -8,7 +8,7 @@ import { Component } from '@angular/core'
 
 export class ApartmentComponent {
   listening = false
-  radioSource = "/"
+  radioSource = "https://grasscopper.github.io/apartment/"
   radioStation = "Radio Off"
 
   lofiColor = "primary"
@@ -86,7 +86,7 @@ export class ApartmentComponent {
   stop(radio) {
     radio.src = ""
     radio.style.visibility = "hidden"
-    this.radioSource = "/"
+    this.radioSource = "https://grasscopper.github.io/apartment/"
     this.radioStation = "Radio Off"
 
     this.lofiColor = "primary"

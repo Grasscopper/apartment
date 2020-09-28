@@ -5,6 +5,7 @@ https://www.artstation.com/quibees
 # GAME CREDIT
 Artwork is based off of Persona 5 by Atlus
 https://atlus.com/persona5/
+https://atlus.com/
 
 # MUSIC CREDIT
 ChilledCow Lofi Radio
