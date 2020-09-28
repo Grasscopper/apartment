@@ -3,7 +3,7 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 body {
-  background-image: url("/assets/CafeLeblanc.jpg");
+  background-image: url("dist/apartment/assets/CafeLeblanc.jpg");
   background-repeat: no-repeat;
   background-size: 1792px 1090px;
 }
