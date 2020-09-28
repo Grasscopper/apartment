@@ -2,23 +2,43 @@
 Anastasiya Osichkina
 https://www.artstation.com/quibees
 
-# GAME CREDIT
-Artwork is based off of Persona 5 by Atlus
+# GAME CREDITS
+Artwork is based off of Persona 5
 https://atlus.com/persona5/
+Persona 5 game created by Atlus
 https://atlus.com/
+Persona 5 OST composed by Shoji Meguro
+https://megamitensei.fandom.com/wiki/Shoji_Meguro
 
-# MUSIC CREDIT
+NeoTokyo video game created by Studio Radi-8
+https://neotokyohq.com/index.html
+NeoTokyo OST composed by Ed Harrison
+https://edharrison.bandcamp.com/
+
+Animal Crossing: New Horizons game created by Nintendo
+https://www.animal-crossing.com/new-horizons/
+https://www.nintendo.com/
+Animal Crossing: New Horizons OST composed by Kazumi Totaka
+https://nintendo.fandom.com/wiki/Kazumi_Totaka
+
+# MUSIC CREDITS
 ChilledCow Lofi Radio
 https://www.youtube.com/watch?v=5qap5aO4i9A&feature=emb_title&ab_channel=ChilledCow
 
-Monstafluff Music Dubstep Radio
-https://www.youtube.com/watch?v=Oxj2EAr256Y&feature=emb_title&ab_channel=MonstafluffMusic
+Lynfinity Animal Crossing: New Horizons OST
+https://www.youtube.com/watch?v=8Xpek37pFjk&feature=emb_title&ab_channel=Lynfinity
 
 GameChops Gaming Radio
 https://www.youtube.com/watch?v=P1k4jGwhKF0&feature=emb_title&ab_channel=GameChops
 
 Nice Guys Indie Radio
 https://www.youtube.com/watch?v=oVi5gtzTDx0&ab_channel=NiceGuys
+
+GameOST's NeoTokyo OST
+https://www.youtube.com/watch?v=408tWOubRDM&feature=emb_title&ab_channel=GameOST%27s
+
+Fandom Collective Persona Mix
+https://www.youtube.com/watch?time_continue=3645&v=C5V2NB5gZmo&feature=emb_title&ab_channel=FandomCollective
 
 BGM channel Jazz Radio
 https://www.youtube.com/watch?v=fEvM-OUbaKs&feature=emb_title&ab_channel=BGMchannel

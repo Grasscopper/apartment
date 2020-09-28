@@ -10,17 +10,21 @@
 
   <button class="lofi" [color]="lofiColor" mat-raised-button (click)="lofi(radio)">Lofi</button>
 
-  <button class="dubstep" [color]="dubstepColor" mat-raised-button (click)="dubstep(radio)">Dubstep</button>
+  <button class="animal" [color]="animalColor" mat-raised-button (click)="animal(radio)">Animal Crossing</button>
 
   <button class="gaming" [color]="gamingColor" mat-raised-button (click)="gaming(radio)">Gaming</button>
 
   <button class="indie" [color]="indieColor" mat-raised-button (click)="indie(radio)">Indie</button>
 
+  <button class="neotokyo" [color]="neotokyoColor" mat-raised-button (click)="neotokyo(radio)">NEOTOKYO°</button>
+
+  <button class="persona" [color]="personaColor" mat-raised-button (click)="persona(radio)">Persona</button>
+
   <button class="jazz" [color]="jazzColor" mat-raised-button (click)="jazz(radio)">Jazz</button>
 
   <button class="stop" color="warn" mat-raised-button (click)="stop(radio)">Stop Radio</button>
 
-  <mat-card-title><a [href]="radioSource">{{ radioStation }}</a></mat-card-title>
+  <mat-card-title><a [href]="radioCreator">{{ radioStation }}</a></mat-card-title>
 
 </mat-card>
 <div>

@@ -7,96 +7,172 @@ import { Component } from '@angular/core'
 })
 
 export class ApartmentComponent {
+  randomPersonaTime = 0
+  personaSource = ""
+
+  getRandomPersona() {
+    this.randomPersonaTime = Math.floor(Math.random() * (8573))
+    this.personaSource = `https://www.youtube.com/embed/C5V2NB5gZmo?start=${this.randomPersonaTime}&autoplay=1`
+  }
+
+  randomNeotokyoTime = 0
+  neotokyoSource = ""
+
+  getRandomRecon() {
+    this.randomNeotokyoTime = Math.floor(Math.random() * (8327))
+    this.neotokyoSource = `https://www.youtube.com/embed/408tWOubRDM?start=${this.randomNeotokyoTime}&autoplay=1`
+  }
+
+  randomAnimalTime = 0
+  animalSource = ""
+
+  getRandomVillager() {
+    this.randomAnimalTime = Math.floor(Math.random() * (18973))
+    this.animalSource = `https://www.youtube.com/embed/8Xpek37pFjk?start=${this.randomAnimalTime}&autoplay=1`
+  }
+
+  ngOnInit() {
+    this.getRandomPersona()
+    this.getRandomRecon()
+    this.getRandomVillager()
+  }
+
   listening = false
-  radioSource = "https://grasscopper.github.io/apartment/"
+  radioCreator = "https://grasscopper.github.io/apartment/"
   radioStation = "Radio Off"
 
   lofiColor = "primary"
-  dubstepColor = "primary"
+  animalColor = "primary"
   gamingColor = "primary"
   indieColor = "primary"
+  neotokyoColor = "primary"
+  personaColor = "primary"
   jazzColor = "primary"
 
   lofi(radio) {
     radio.src = "https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1"
     radio.style.visibility = "hidden"
-    this.radioSource = "https://www.youtube.com/watch?v=5qap5aO4i9A&feature=emb_title&ab_channel=ChilledCow"
+    this.radioCreator = "https://www.youtube.com/watch?v=5qap5aO4i9A&feature=emb_title&ab_channel=ChilledCow"
     this.radioStation = "Now Playing: ChilledCow Lofi Radio"
 
     this.lofiColor = "accent"
-    this.dubstepColor = "primary"
+    this.animalColor = "primary"
     this.gamingColor = "primary"
     this.indieColor = "primary"
+    this.neotokyoColor = "primary"
+    this.personaColor = "primary"
     this.jazzColor = "primary"
   }
 
-  dubstep(radio) {
-    radio.src = "https://www.youtube.com/embed/Oxj2EAr256Y?autoplay=1"
+  animal(radio) {
+    this.getRandomVillager()
+    radio.src = this.animalSource
     radio.style.visibility = "hidden"
-    this.radioSource = "https://www.youtube.com/watch?v=Oxj2EAr256Y&feature=emb_title&ab_channel=MonstafluffMusic"
-    this.radioStation = "Now Playing: Monstafluff Music Dubstep Radio"
+    this.radioCreator = "https://www.youtube.com/watch?v=8Xpek37pFjk&feature=emb_title&ab_channel=Lynfinity"
+    this.radioStation = "Now Playing: Lynfinity Animal Crossing Radio"
 
     this.lofiColor = "primary"
-    this.dubstepColor = "accent"
+    this.animalColor = "accent"
     this.gamingColor = "primary"
     this.indieColor = "primary"
+    this.neotokyoColor = "primary"
+    this.personaColor = "primary"
     this.jazzColor = "primary"
   }
 
   gaming(radio) {
     radio.src = "https://www.youtube.com/embed/P1k4jGwhKF0?autoplay=1"
     radio.style.visibility = "hidden"
-    this.radioSource = "https://www.youtube.com/watch?v=P1k4jGwhKF0&feature=emb_title&ab_channel=GameChops"
+    this.radioCreator = "https://www.youtube.com/watch?v=P1k4jGwhKF0&feature=emb_title&ab_channel=GameChops"
     this.radioStation = "Now Playing: GameChops Gaming Radio"
 
     this.lofiColor = "primary"
-    this.dubstepColor = "primary"
+    this.animalColor = "primary"
     this.gamingColor = "accent"
     this.indieColor = "primary"
+    this.neotokyoColor = "primary"
+    this.personaColor = "primary"
     this.jazzColor = "primary"
   }
 
   indie(radio) {
     radio.src = "https://www.youtube.com/embed/oVi5gtzTDx0?autoplay=1"
     radio.style.visibility = "hidden"
-    this.radioSource = "https://www.youtube.com/watch?v=oVi5gtzTDx0&ab_channel=NiceGuys"
+    this.radioCreator = "https://www.youtube.com/watch?v=oVi5gtzTDx0&ab_channel=NiceGuys"
     this.radioStation = "Now Playing: Nice Guys Indie Radio"
 
     this.lofiColor = "primary"
-    this.dubstepColor = "primary"
+    this.animalColor = "primary"
     this.gamingColor = "primary"
     this.indieColor = "accent"
+    this.neotokyoColor = "primary"
+    this.personaColor = "primary"
+    this.jazzColor = "primary"
+  }
+
+  neotokyo(radio) {
+    this.getRandomRecon()
+    radio.src = this.neotokyoSource
+    radio.style.visibility = "hidden"
+    this.radioCreator = "https://www.youtube.com/watch?v=408tWOubRDM&feature=emb_title&ab_channel=GameOST%27s"
+    this.radioStation = "Now Playing: GameOST's NeoTokyo Radio"
+
+    this.lofiColor = "primary"
+    this.animalColor = "primary"
+    this.gamingColor = "primary"
+    this.indieColor = "primary"
+    this.neotokyoColor = "accent"
+    this.personaColor = "primary"
+    this.jazzColor = "primary"
+  }
+
+  persona(radio) {
+    this.getRandomPersona()
+    radio.src = this.personaSource
+    radio.style.visibility = "hidden"
+    this.radioCreator = "https://www.youtube.com/watch?time_continue=3645&v=C5V2NB5gZmo&feature=emb_title&ab_channel=FandomCollective"
+    this.radioStation = "Now Playing: Fandom Collective Persona Radio"
+
+    this.lofiColor = "primary"
+    this.animalColor = "primary"
+    this.gamingColor = "primary"
+    this.indieColor = "primary"
+    this.neotokyoColor = "primary"
+    this.personaColor = "accent"
     this.jazzColor = "primary"
   }
 
   jazz(radio) {
     radio.src = "https://www.youtube.com/embed/fEvM-OUbaKs?autoplay=1"
     radio.style.visibility = "hidden"
-    this.radioSource = "https://www.youtube.com/watch?v=fEvM-OUbaKs&feature=emb_title&ab_channel=BGMchannel"
+    this.radioCreator = "https://www.youtube.com/watch?v=fEvM-OUbaKs&feature=emb_title&ab_channel=BGMchannel"
     this.radioStation = "Now Playing: BGM channel Jazz Radio"
 
     this.lofiColor = "primary"
-    this.dubstepColor = "primary"
+    this.animalColor = "primary"
     this.gamingColor = "primary"
     this.indieColor = "primary"
+    this.neotokyoColor = "primary"
+    this.personaColor = "primary"
     this.jazzColor = "accent"
   }
-
 
   stop(radio) {
     radio.src = ""
     radio.style.visibility = "hidden"
-    this.radioSource = "https://grasscopper.github.io/apartment/"
+    this.radioCreator = "https://grasscopper.github.io/apartment/"
     this.radioStation = "Radio Off"
 
     this.lofiColor = "primary"
-    this.dubstepColor = "primary"
+    this.animalColor = "primary"
     this.gamingColor = "primary"
     this.indieColor = "primary"
+    this.neotokyoColor = "primary"
+    this.personaColor = "primary"
     this.jazzColor = "primary"
   }
 
-  controlRadio(radio) {
+  controlRadio(radio) { //past feature where clicking a radio graphic hid all radio buttons
     if (this.listening == false) {
       this.listening = true
       document.getElementsByClassName("lofi")[0].classList.remove("hide")
