@@ -1,17 +1,38 @@
 mat-card {
   margin: 0 auto;
-  margin-bottom: 30px;
+  /* margin-top: 250px; */
+  /* margin-bottom: 30px; */
   width: 50%;
   background-color: white;
   color: black;
-  opacity: 0.60;
+  text-align: center;
+  opacity: 0.75;
+  margin-top: 20px;
+  border-radius: 100px;
 }
 
 h1 {
   position: fixed;
 }
 
-@media (max-width: 1000px) {
+.stop {
+  margin-bottom: 20px;
+}
+
+/* .example-spacer {
+  flex: 1 1 auto;
+} */
+
+a {
+  margin-left: 5px;
+  color: #E91E62;
+}
+
+a:hover {
+  color: black;
+}
+
+/* @media (max-width: 1000px) {
   mat-card {
     margin: 0px;
     margin-bottom: 30px;
@@ -19,15 +40,11 @@ h1 {
     border-radius: 0px;
     opacity: 0.60;
   }
-}
+} */
 
 #title {
   padding-left: 30px;
   font-size: 24px;
-}
-
-#toolbar-wrapper {
-  background-color: red;
 }
 
 .hide {
@@ -36,7 +53,6 @@ h1 {
 
 button {
   margin: 10px;
-  margin-top: 50px;
   width: 20%;
 }
 

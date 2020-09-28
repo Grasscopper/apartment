@@ -2,6 +2,22 @@
 Anastasiya Osichkina
 https://www.artstation.com/quibees
 
+#MUSIC CREDIT
+ChilledCow Lofi Radio
+https://www.youtube.com/watch?v=5qap5aO4i9A&feature=emb_title&ab_channel=ChilledCow
+
+Monstafluff Music Dubstep Radio
+https://www.youtube.com/watch?v=Oxj2EAr256Y&feature=emb_title&ab_channel=MonstafluffMusic
+
+GameChops Gaming Radio
+https://www.youtube.com/watch?v=P1k4jGwhKF0&feature=emb_title&ab_channel=GameChops
+
+Nice Guys Indie Radio
+https://www.youtube.com/watch?v=oVi5gtzTDx0&ab_channel=NiceGuys
+
+BGM channel Jazz Radio
+https://www.youtube.com/watch?v=fEvM-OUbaKs&feature=emb_title&ab_channel=BGMchannel
+
 # Apartment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
