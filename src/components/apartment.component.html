@@ -1,27 +1,27 @@
 <mat-toolbar color="primary" id="title">
-  <a src="https://www.artstation.com/quibees" target="_blank"> Café Leblanc by Anastasiya Osichkina</a>
+  Café Leblanc / Artwork by
+  <a href="https://www.artstation.com/quibees" target="_blank">Anastasiya Osichkina</a>
+  <span class="example-spacer"></span>
 </mat-toolbar>
-<!-- <div class="grid-container"> -->
-    <!-- <div class="grid-x"> -->
-      <!-- <mat-card> -->
-      <!-- <img src="/assets/radio-24px.svg" (click)="controlRadio(radio)"/> -->
-
-
-        <div class="column medium-6" id="living-room-image">
-          <iframe #radio width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      <!-- </mat-card> -->
-      <!-- <mat-card> -->
-        <!-- <div class="column medium-6" id="bed-room-image"></div> -->
-        <!-- </mat-card> -->
-    <!-- </div> -->
-    <!-- </div> -->
-    <!-- <h1>Is there anotha way</h1>
-
 <mat-card>
-  <button color="accent" mat-raised-button (click)="controlRadio(radio)">Radio</button>
-  <button class="lofi hide" color="accent" mat-raised-button (click)="lofi(radio)">Lofi</button>
-  <button class="dubstep hide" color="accent" mat-raised-button (click)="dubstep(radio)">Dubstep</button>
-  <button class="gaming hide" color="accent" mat-raised-button (click)="gaming(radio)">Gaming</button>
-  <button class="stop hide" color="primary" mat-raised-button (click)="stop(radio)">Stop Radio</button>
-  </mat-card> -->
+
+  <mat-card-title>Virtue Night Radio</mat-card-title>
+
+  <button class="lofi" [color]="lofiColor" mat-raised-button (click)="lofi(radio)">Lofi</button>
+
+  <button class="dubstep" [color]="dubstepColor" mat-raised-button (click)="dubstep(radio)">Dubstep</button>
+
+  <button class="gaming" [color]="gamingColor" mat-raised-button (click)="gaming(radio)">Gaming</button>
+
+  <button class="indie" [color]="indieColor" mat-raised-button (click)="indie(radio)">Indie</button>
+
+  <button class="jazz" [color]="jazzColor" mat-raised-button (click)="jazz(radio)">Jazz</button>
+
+  <button class="stop" color="warn" mat-raised-button (click)="stop(radio)">Stop Radio</button>
+
+  <mat-card-title><a [href]="radioSource">{{ radioStation }}</a></mat-card-title>
+
+</mat-card>
+<div>
+  <iframe #radio width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
