@@ -10,10 +10,9 @@ https://atlus.com/
 Persona 5 OST composed by Shoji Meguro
 https://megamitensei.fandom.com/wiki/Shoji_Meguro
 
-NeoTokyo video game created by Studio Radi-8
-https://neotokyohq.com/index.html
-NeoTokyo OST composed by Ed Harrison
-https://edharrison.bandcamp.com/
+Stardew Valley video game and music created by Eric Barone
+https://www.stardewvalley.net/
+https://twitter.com/concernedape?lang=en
 
 Animal Crossing: New Horizons game created by Nintendo
 https://www.animal-crossing.com/new-horizons/
@@ -25,17 +24,17 @@ https://nintendo.fandom.com/wiki/Kazumi_Totaka
 ChilledCow Lofi Radio
 https://www.youtube.com/watch?v=5qap5aO4i9A&feature=emb_title&ab_channel=ChilledCow
 
-Lynfinity Animal Crossing: New Horizons OST
-https://www.youtube.com/watch?v=8Xpek37pFjk&feature=emb_title&ab_channel=Lynfinity
+Time Music Box Animal Crossing: New Horizons OST
+https://www.youtube.com/watch?v=gjyQoz6f0qw&ab_channel=TimeMusicBox
 
-GameChops Gaming Radio
+GameChops Video Game Study Lounge
 https://www.youtube.com/watch?v=P1k4jGwhKF0&feature=emb_title&ab_channel=GameChops
 
 Nice Guys Indie Radio
 https://www.youtube.com/watch?v=oVi5gtzTDx0&ab_channel=NiceGuys
 
-GameOST's NeoTokyo OST
-https://www.youtube.com/watch?v=408tWOubRDM&feature=emb_title&ab_channel=GameOST%27s
+Svings Stardew Valley OST
+https://www.youtube.com/channel/UCCrrmTuVnXKRLcWcoDzkNMw
 
 Fandom Collective Persona Mix
 https://www.youtube.com/watch?time_continue=3645&v=C5V2NB5gZmo&feature=emb_title&ab_channel=FandomCollective

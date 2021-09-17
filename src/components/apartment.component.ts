@@ -20,7 +20,7 @@ export class ApartmentComponent {
 
   getRandomRecon() {
     this.randomNeotokyoTime = Math.floor(Math.random() * (8327))
-    this.neotokyoSource = `https://www.youtube.com/embed/408tWOubRDM?start=${this.randomNeotokyoTime}&autoplay=1`
+    this.neotokyoSource = `https://www.youtube.com/embed/0gi5-mEVEc4?start=${this.randomNeotokyoTime}&autoplay=1`
   }
 
   randomAnimalTime = 0
@@ -28,7 +28,7 @@ export class ApartmentComponent {
 
   getRandomVillager() {
     this.randomAnimalTime = Math.floor(Math.random() * (18973))
-    this.animalSource = `https://www.youtube.com/embed/8Xpek37pFjk?start=${this.randomAnimalTime}&autoplay=1`
+    this.animalSource = `https://www.youtube.com/embed/gjyQoz6f0qw?start=${this.randomAnimalTime}&autoplay=1`
   }
 
   ngOnInit() {
@@ -68,8 +68,8 @@ export class ApartmentComponent {
     this.getRandomVillager()
     radio.src = this.animalSource
     radio.style.visibility = "hidden"
-    this.radioCreator = "https://www.youtube.com/watch?v=8Xpek37pFjk&feature=emb_title&ab_channel=Lynfinity"
-    this.radioStation = "Now Playing: Lynfinity Animal Crossing Radio"
+    this.radioCreator = "https://www.youtube.com/watch?v=gjyQoz6f0qw&ab_channel=TimeMusicBox"
+    this.radioStation = "Now Playing: Time Music Box Animal Crossing Radio"
 
     this.lofiColor = "primary"
     this.animalColor = "accent"
@@ -81,10 +81,10 @@ export class ApartmentComponent {
   }
 
   gaming(radio) {
-    radio.src = "https://www.youtube.com/embed/P1k4jGwhKF0?autoplay=1"
+    radio.src = "https://www.youtube.com/embed/Sdf5-3yddvA?autoplay=1"
     radio.style.visibility = "hidden"
-    this.radioCreator = "https://www.youtube.com/watch?v=P1k4jGwhKF0&feature=emb_title&ab_channel=GameChops"
-    this.radioStation = "Now Playing: GameChops Gaming Radio"
+    this.radioCreator = "https://www.youtube.com/watch?v=Sdf5-3yddvA&ab_channel=GameChops"
+    this.radioStation = "Now Playing: GameChops Video Game Study Lounge"
 
     this.lofiColor = "primary"
     this.animalColor = "primary"
@@ -114,8 +114,8 @@ export class ApartmentComponent {
     this.getRandomRecon()
     radio.src = this.neotokyoSource
     radio.style.visibility = "hidden"
-    this.radioCreator = "https://www.youtube.com/watch?v=408tWOubRDM&feature=emb_title&ab_channel=GameOST%27s"
-    this.radioStation = "Now Playing: GameOST's NeoTokyo Radio"
+    this.radioCreator = "https://www.youtube.com/watch?v=0gi5-mEVEc4&ab_channel=Svings"
+    this.radioStation = "Now Playing: Svings Stardew Valley Radio"
 
     this.lofiColor = "primary"
     this.animalColor = "primary"
